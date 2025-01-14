@@ -40,10 +40,10 @@ void leds_on() {
  delay(tiempo); // Espera por 4000 milisegundo(s)
  digitalWrite(LED_A, LOW);// Desactivación led amarillo
  delay(tiempo/2); // Espera por 2000 milisegundo(s)
- digitalWrite(11, HIGH);// Activación rele
+ digitalWrite(RELE, HIGH);// Activación rele
  digitalWrite(LED_V, HIGH);// Activación led verde
  delay(tiempo); // Espera por // Activación rele4000 milisegundo(s)
- digitalWrite(11, LOW);// Desactivación rele
+ digitalWrite(RELE, LOW);// Desactivación rele
  digitalWrite(LED_V, LOW);// Desactivación led verde
  delay(tiempo/2); // Espera por 2000 milisegundo(s)
 }
